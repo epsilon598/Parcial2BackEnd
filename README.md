@@ -1,0 +1,4 @@
+* Para iniciar el proyecto es necesario establecer un servidor para crear y almacenar la base de datos. Para este caso en particular se utiliza MySQL Community Server y MySQL Workbench para establecer la conexion. 
+* Puede hacerse referencia al archivo [https://github.com/epsilon598/Parcial2BackEnd/blob/master/src/main/resources/application.properties](resources), en el cual de ser necesario se puede editar el nombre del esquema, usuario y contraseña. Por norma general, se establecio el estandar de root, root y no se modifico el puerto de MySQL para correr el servidor local.
+* Una vez ejecutado el servidor, se puede iniciar el backend dirigiendose a [https://github.com/epsilon598/Parcial2BackEnd/blob/master/src/main/java/com/example/myappbackend/MyappbackendApplication.java](MyappBackendApplication) donde solo es necesario construir y ejecutar el proyecto.
+* Finalmente, solo es necesario ejecutar el front-end para utilizar el api.
